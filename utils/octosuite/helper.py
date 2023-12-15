@@ -1,5 +1,5 @@
 from rich.table import Table
-from octosuite.config import Tree, xprint, white, green, white_bold, green_bold, header_title, reset
+from config import Tree, xprint, white, green, white_bold, green_bold, header_title, reset
 
 # helper.py
 # This file holds the help text for available commands.

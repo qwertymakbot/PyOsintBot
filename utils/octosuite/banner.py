@@ -1,5 +1,5 @@
 import getpass
-from octosuite.config import red, white, green, reset, Tree
+from config import red, white, green, reset, Tree
 
 
 # banner.py

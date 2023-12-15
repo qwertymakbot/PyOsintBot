@@ -2,8 +2,8 @@ import os
 import csv
 import logging
 from rich import print as xprint
-from octosuite.log_roller import prompt_log_csv, logged_to_csv
-from octosuite.message_prefixes import PROMPT, WARNING, POSITIVE, NEGATIVE, INFO
+from log_roller import prompt_log_csv, logged_to_csv
+from message_prefixes import PROMPT, WARNING, POSITIVE, NEGATIVE, INFO
 
 
 # csv_loggers.py
