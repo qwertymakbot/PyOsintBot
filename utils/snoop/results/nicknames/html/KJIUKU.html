@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang='ru'>
+
+<head>
+<title>◕ Snoop HTML-отчет</title>
+<meta charset='utf-8'>
+<style>
+body {background: url(../../../web/public.png) no-repeat 20% 0%}
+.str1{text-shadow: 0px 0px 20px #333333}
+.shad{display: inline-block}
+.shad:hover{text-shadow: 0px 0px 14px #6495ED; transform: scale(1.1); transition: transform 0.15s}
+</style>
+<link rel='stylesheet' href='../../../web/style.css'>
+</head>
+
+<body id='snoop'>
+
+<div id='particles-js'></div>
+
+<h1><a class='GL' href='file://C:\Users\User\Desktop\PyOsintBot\utils\snoop/results/nicknames/html/'>open file</a></h1>
+<h3>Snoop Project (demo version)</h3>
+<p>Нажмите: 'сортировать по странам', возврат:'<span style='text-shadow: 0px 0px 13px #40E0D0'>F5'</span></p>
+<div id='report'>
+<button onclick='sortList()'>Сортировать по странам ↓↑</button><br>
+<ol id='id777'>
+<li><span class='shad'>🇷🇺<a target='_blank' href='https://cyber.sports.ru/search/?query=KJIUKU'>Cyber_sports</a></span></li>
+<li><span class='shad'>🌎<a target='_blank' href='https://www.donationalerts.com/c/KJIUKU'>Donationalerts</a></span></li>
+<li><span class='shad'>🇷🇺<a target='_blank' href='https://pikabu.ru/@KJIUKU'>Pikabu</a></span></li>
+<li><span class='shad'>🌎<a target='_blank' href='https://t.me/KJIUKU'>Telegram</a></span></li>
+<li><span class='shad'>🇷🇺<a target='_blank' href='https://vc.ru/search/v2/subsite/relevant?query=KJIUKU'>VC</a></span></li>
+</ol>
+</div>
+
+<br>
+
+<div id='meta'>GEO: (🇷🇺 ⇔ 3); (🌎 ⇔ 2).
+<br> Запрашиваемый объект &lt; <b>KJIUKU</b> &gt; найден: <b>5</b> раз(а).<br> Сессия: <b>32сек_11.68Mb</b>.
+<br> Исключённые регионы: <b>нет</b>.
+<br> Выбор конкретных регионов: <b>нет</b>.
+<br> База Snoop (demo version): <b>230</b> Websites.
+<br> Обновлено: <i><b>15/12/2023</b>_14:16:04.</i><br><br>
+</div>
+
+<br>
+
+<script>
+function sortList() {
+  var list, i, switching, b, shouldSwitch;
+  list = document.getElementById('id777');
+  switching = true;
+  while (switching) {
+    switching = false;
+    b = list.getElementsByTagName("LI");
+    for (i = 0; i < (b.length - 1); i++) {
+      shouldSwitch = false;
+      if (b[i].innerHTML.toLowerCase() > b[i + 1].innerHTML.toLowerCase()) {
+        shouldSwitch = true;
+        break;
+      }
+    }
+    if (shouldSwitch) {
+      b[i].parentNode.insertBefore(b[i + 1], b[i]);
+      switching = true;
+    }
+  }
+}
+
+function rnd(min, max) {
+  return Math.random() * (max - min) + min;
+}
+
+var don = decodeURIComponent(escape(window.atob("\
+4oyb77iPINCh0L/QsNGB0LjQsdC+INC30LAg0LjQvdGC0LXRgNC10YEg0LogU25vb3AgZGVtbyB2\
+ZXJzaW9uLgoK0JXRgdC70Lgg0LjQvNC10LXRgtGB0Y8g0LLQvtC30LzQvtC20L3QvtGB0YLRjCwg\
+0L/QvtC00LTQtdGA0LbQuNGC0LUg0YTQuNC90LDQvdGB0L7QstC+INGN0YLQvtGCINGD0L3QuNC6\
+0LDQu9GM0L3Ri9C5IElULdC/0YDQvtC10LrRgjoK0L/QvtC70YPRh9C40YLQtSBTbm9vcCBmdWxs\
+IHZlcnNpb24g0LHQtdC3INC+0LPRgNCw0L3QuNGH0LXQvdC40LkuCgpD0LwuICJzbm9vcF9jbGkg\
+LS1oZWxwIC8gc25vb3BfY2xpLmV4ZSAtLWhlbHAiLgo=")))
+
+var don1 = decodeURIComponent(escape(window.atob("\
+PGZvbnQgY29sb3I9InJlZCIgc2l6ZT0iMiI+4oybIFNub29wIGRlbW8gdmVyc2lvbi48L2ZvbnQ+\
+Cjxicj48YnI+CtCU0LvRjyDQv9C+0LTQtNC10YDQttC60Lgg0JHQlCDQuCDQtNCw0LvRjNC90LXQ\
+udGI0LXQs9C+INGA0LDQt9Cy0LjRgtC40Y8g0J/QniDigJQg0L/RgNC+0LXQutGC0YMg0YLRgNC1\
+0LHRg9C10YLRgdGPINGE0LjQvdCw0L3RgdC+0LLQsNGPINC/0L7QtNC00LXRgNC20LrQsC48YnI+\
+CtCf0L7QtNC00LXRgNC20LjRgtC1INGA0LDQt9GA0LDQsdC+0YLRh9C40LrQsCDQuCDQtdCz0L4g\
+0LjRgdGB0LvQtdC00L7QstCw0L3QuNGPINC00L7QvdCw0YLQvtC8LCDQuNC70Lgg0L/RgNC40L7Q\
+sdGA0LXRgtCw0Y8gPGI+PGZvbnQgY29sb3I9ImdyZWVuIj5Tbm9vcCBmdWxsIHZlcnNpb24hPC9m\
+b250PjwvYj4KPGJyPjxicj4KQ9C8LiAic25vb3BfY2xpIC0taGVscCAvIHNub29wX2NsaS5leGUg\
+LS1oZWxwIi4K")))
+
+func = setInterval(() => {alert(don)}, rnd(30, 45) * 1000)
+func1 = setTimeout(() => {id777.onmouseover = function() {document.write(don1)}}, rnd(55, 75) * 1000)
+</script>
+
+<script src="../../../web/particles.js"></script>
+<script src="../../../web/app.js"></script>
+
+<audio title="Megapolis (remix).mp3" controls="controls" autoplay="autoplay">
+<source src="../../../web/Megapolis%20(remix).mp3" type="audio/mpeg">
+</audio>
+
+<br>
+
+<audio title="for snoop in cyberpunk.mp3" controls="controls">
+<source src="../../../web/for%20snoop%20in%20cyberpunk.mp3" type="audio/mpeg">
+</audio>
+
+<br><br>
+
+<div id='buttons'>
+<a target='_blank' href='https://github.com/snooppr/snoop' class="SnA"><span class="SnSpan">🛠  Source Исходный код</span></a>
+<a target='_blank' href='https://drive.google.com/file/d/12DzAQMgTcgeG-zJrfDxpUbFjlXcBq5ih/view' class="DnA"><span class="DnSpan">📖 Doc Документация</span></a>
+<a target='_blank' href='https://yoomoney.ru/to/4100111364257544' class="DnA"><span class="DnSpan">💳 Donation Пожертвование</span></a>
+</div>
+
+<br><br>
+
+<p class='str1'><span style="color: gray"><small><small>Отчёт создан в ПО Snoop Project. <br> ©2020-2023 «Snoop Project».</small></small></span></p>
+
+<script>
+if(typeof don == "undefined" || typeof don1 == "undefined" || don.length != 212 || don1.length != 331 || typeof func == "undefined" || typeof func1 == "undefined")
+document.getElementById('snoop').innerHTML=""
+</script>
+
+</body>
+</html>
